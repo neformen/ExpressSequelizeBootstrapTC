@@ -1,5 +1,6 @@
 {
-    "username": "root",
-    "database": "test1",
+    "username": "pavilion",
+    "database": "Company",
+    "password": "941694160",
     "host": "127.0.0.1"
 }

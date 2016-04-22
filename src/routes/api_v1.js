@@ -17,6 +17,9 @@ router.delete('/organization/:id',  organizationController.delete);
 // USER
 // -------------------------------------------------------
 router.post('/user',  userController.create);
+router.put('/user/:id',  userController.update);
+router.delete('/user/:id',  user.delete);
+router.get('/user/:id', user.getAllByOrgId);
 
 // -------------------------------------------------------
 // Homework
